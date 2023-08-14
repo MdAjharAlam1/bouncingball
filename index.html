@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .z{
+            width: 130px;
+            height: 130px;
+            display: inline-block;
+            border-radius: 130px;
+            margin-left: 8px;
+            animation: bouncingball;
+            animation-timing-function: ease-in;
+            animation-duration: 0.6s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite
+        }
+        .a{
+            background-color: red;
+            animation-delay: 0s;
+        }
+        .b{
+            background-color: gray;
+            animation-delay: 0.1s;
+        }
+        .c{
+            background-color: green;
+            animation-delay: 0.2s;
+        }
+        .d{
+            background-color: black;
+            animation-delay: 0.3s;
+        }
+        .e{
+            background-color: aqua;
+            animation-delay: 0.4s;
+        }
+        .f{
+            background-color: pink;
+            animation-delay: 0.5s;
+        }
+        .g{
+            background-color: darkblue;
+            animation-delay: 0.6s;
+
+        }
+        .h{
+            background-color: yellow;
+            animation-delay: 0.7s;
+        }
+        .i{
+            background-color: crimson;
+            animation-delay: 0.8s;
+        }
+        .j{
+            background-color: navy;
+            animation-delay: 0.9s;
+        }
+        /* .k{
+            background-color: aquamarine;
+            animation-delay: 0.1011s;
+        }
+        .l{
+            background-color: red;
+            animation-delay: 0.11s;
+        }
+        .m{
+            background-color: rgb(79, 10, 239);
+            animation-delay: 0.12s;
+        } */
+        @keyframes bouncingball {
+            0%{
+                transform: translateY(0px);
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(600px);
+                opacity: 1;
+
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="z a"></div>
+    <div class="z b"></div>
+    <div class="z c"></div>
+    <div class="z d"></div>
+    <div class="z e"></div>
+    <div class="z f"></div>
+    <div class="z g"></div>
+    <div class="z h"></div>
+    <div class="z i"></div>
+    <div class="z j"></div>
+    <div class="z k"></div>
+    <div class="z l"></div>
+    <div class="z m"></div>
+</body>
+</html>
